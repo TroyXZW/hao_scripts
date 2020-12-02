@@ -6,7 +6,7 @@ name: QQ_READ
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/11 * */30 * *'
   watch:
     types: started
   repository_dispatch:
