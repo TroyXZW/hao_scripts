@@ -1,5 +1,5 @@
 # File: .github/workflows/repo-sync.yml
-name: sync-lxk0301-jd_scripts #action名字，随便起
+name: sync-gitee-lxk0301-jd_scripts #action名字，随便起
 on:
   schedule:
     - cron: '1 0,15 * * *'
@@ -9,7 +9,7 @@ on:
   push:
     branches: [ master ]
   repository_dispatch:
-    types: sync-lxk0301-jd_scripts #同随便起
+    types: sync-gitee-lxk0301-jd_scripts #同随便起
 jobs:
   repo-sync:
     env:
