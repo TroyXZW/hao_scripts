@@ -11,7 +11,7 @@ on:
   # watch:
   #   types: started
   repository_dispatch:
-    types: jd_jxnc
+    types: jxnc
 jobs:
   build:
 
