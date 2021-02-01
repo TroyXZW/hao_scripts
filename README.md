@@ -9,14 +9,12 @@ is_noactive| int|
 create_days| int|
 long_city_id| int|
 last_city_id| int|
-last_awake_date| string|
 xy_money| bigint|
 focus_cnt| int|
 fans_cnt| int|
 sign_cnt| int|
 task_cnt| int|
 second_order_cnt| bigint|
-last_pay_order_date| string|
 cancel_order_cnt| bigint|
 cash_back_cnt| bigint|
 pay_gmv| bigint|
@@ -43,9 +41,7 @@ question_cnt| int|
 group_click_cnt| int|
 topic_post_cnt| int|
 clock_post_cnt| int|
-last_punchcard_date| string|
-last_post_date| string|
-msg_cnt| string|
+msg_cnt| int|
 msg_7days_cnt| bigint|
 tiezi_cnt| bigint|
 follow_doctor_cnt| bigint|
@@ -66,23 +62,21 @@ place_order_cnt| bigint|
 accumulate| bigint|
 user_behavior_value| int|
 cheat_score| bigint|
+since_last_awake_days| int|
+since_last_pay_order_days| int|
+since_last_punchcard_days| int|
+since_last_post_days| int|
 device_id| bigint|
-gender| string|
+gender| int|
 age| tinyint|
-certified_type| tinyint|
 account_total_amount| double|
-experience| string|
+experience| int|
 vip_status| int|
 level| int|
 is_visitor| int|
 search_click_sum7| bigint|
 rec_click_sum7| bigint|
-axg_click_category_sum7| bigint|
-axg_click_feed_sum7| bigint|
 add_cart7| bigint|
-login_sum30| bigint|
-stay_time_sum30| bigint|
-visit_cnt30| bigint|
-diary_hd| bigint|
-
+stay_time_sum14| bigint|
+diary_hd_sum14| bigint|
 
