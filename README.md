@@ -1,2 +1,2 @@
-# jd_scripts
+# scripts
 自用
