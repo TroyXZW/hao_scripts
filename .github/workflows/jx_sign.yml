@@ -4,7 +4,7 @@
 name: jx_sign
 
 on:
-  push:
+  # push:
   workflow_dispatch:
   schedule:
     - cron: '5 16 * * *'

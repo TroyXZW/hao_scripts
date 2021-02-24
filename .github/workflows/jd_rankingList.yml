@@ -4,7 +4,7 @@
 name: jd_rankingList
 
 on:
-  push:
+  # push:
   workflow_dispatch:
   schedule:
     - cron: '11 1 * * *'

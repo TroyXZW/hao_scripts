@@ -4,7 +4,7 @@
 name: jd_pet
 
 on:
-  push:
+  # push:
   workflow_dispatch:
   schedule:
     - cron: '5 23,5,11 * * *'

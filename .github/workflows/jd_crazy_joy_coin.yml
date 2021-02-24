@@ -4,7 +4,7 @@
 name: jd_crazy_joy_coin
 
 on:
-  push:
+  # push:
   workflow_dispatch:
   schedule:
     - cron: '10 23 * * *'

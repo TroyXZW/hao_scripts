@@ -4,7 +4,7 @@
 name: jd_live
 
 on:
-  push:
+  # push:
   workflow_dispatch:
   schedule:
     - cron: '10-20/5 4 * * *'

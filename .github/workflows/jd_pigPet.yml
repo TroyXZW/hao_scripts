@@ -1,7 +1,7 @@
 name: jd_pigPet
 
 on:
-  push:
+  # push:
   workflow_dispatch:
   schedule:
     - cron: '12 * * * *'

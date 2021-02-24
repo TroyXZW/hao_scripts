@@ -4,7 +4,7 @@
 name: jd_joy_feedPets
 
 on:
-  push:
+  # push:
   workflow_dispatch:
   schedule:
     - cron: '*/20 */1 * * *'
