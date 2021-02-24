@@ -2,7 +2,7 @@
 name: sync-gitee-lxk0301-jd_scripts #action名字，随便起
 on:
   schedule:
-    - cron: '1 0,15 * 12 *'
+    - cron: '1 2,12 * 12 *'
   workflow_dispatch:
   watch:
     types: started
